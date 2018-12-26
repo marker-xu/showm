@@ -1,0 +1,77 @@
+
+<html>
+<meta HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=gb2312">
+<link rel=stylesheet type=text/css href='/file/bbs/bbs.css'>
+<title> [代挂][女] 90年浙江女孩，寻找有缘的你 - 饮水思源</title><script type="text/javascript" src="/check.js"></script>
+<script type="text/javascript">
+function jumpUrl(x){
+	var url = '', e = encodeURIComponent, s = screen, d = document, title = d.title, u = d.location;
+	if(x=='douban'){
+		url ="http://www.douban.com/recommend/?url="+e(u.href)+"&title="+e(title);
+	}else if(x=='renren'){
+		url ="http://share.renren.com/share/buttonshare?link="+e(u.href)+"&title="+e(title);
+	}else if(x=='kaixin'){
+		url ="http://www.kaixin001.com/repaste/share.php?rurl="+e(u.href)+"&rtitle="+e(title);
+	}else if(x=='qzone'){
+		url ="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?to=xiaoyou&url="+e(u.href);
+	}else if(x=='sina'){
+		url ="http://v.t.sina.com.cn/share/share.php?title="+e(title)+"&url="+e(u.href);
+	}
+	function a(){
+		if (!window.open(url))
+			u.href = [url].join('');
+	}
+	if (/Firefox/.test(navigator.userAgent)){
+		setTimeout(a, 0);
+	}else{
+		a();
+	}
+}
+</script>
+<link rel=stylesheet type=text/css href='/file/bbs/blue.css'>
+<center>
+<font class="title">饮水思源 - 主题文章阅读　　</font>[讨论区: LoveBridge]<hr>本主题共有 1 篇文章，分 1 页, 当前显示第 1 页 [<a href="/bbstdoc?board=LoveBridge">返回讨论区</a>]<br /><table class=show_border width=610><tr><td><pre>
+[<a href='bbspst?board=LoveBridge&file=M.1541555456.A'>回复本文</a>][<a href='bbscon?board=LoveBridge&file=M.1541555456.A'>原帖</a>] 发信人: <a href="bbsqry?userid=hdjenemy">hdjenemy</a>(learn to forget), 信区: LoveBridge
+标  题:  [代挂][女] 90年浙江女孩，寻找有缘的你
+发信站: 饮水思源 (2018年11月07日09:50:56 星期三)
+
+    鹊桥是个很好的平台，四年前给大表妹挂过，成就了一份好姻缘；现在给小表妹挂牌试试，希望也可以帮她找到那个有缘的他。
+
+    90年浙江女孩儿，华理本硕，毕业后留沪，在一家国企从事软件开发工作。
+    身高162cm，体重50kg，性格沉静温和，有耐心，有爱心，孝顺父母，爱干净。
+    喜欢看书看电影，喜欢旅游散步到处走走，热爱美食，自己也会做一些简单的家常菜。
+    家境小康，父母通情达理。感情经历简单。
+
+    希望的男生：
+    学历：本科及以上
+    身高：170cm及以上
+    家庭：老乡最好啦，其他省市也没有关系；希望父母开明讲理。
+    性格：偏外向，个性好，踏实稳重，有担当。
+    年龄：85-90年；一、两年内有结婚的打算。
+
+    合适的话，请附上照片发至邮箱：940324037@qq.com。希望邮件的内容包括身高、家乡、学历、年龄和工作，不然还要多问一遍。比妹子小或者没有打算近一两年结婚的请绕道，不能接受姐弟恋，敬请谅解！
+
+
+<IMG SRC="/file/LoveBridge/1541555410319090.jpg" onload="if(this.width > screen.width - 200){this.width = screen.width - 200}"><br/>
+
+
+--
+<div style="height: 100px"><IMG class="QmdImg" SRC="/file/PIC/1127134094205250.jpg" style="max-height: 100%; max-width: 100%"></div>
+
+
+<a target=_blank href='/file/WorldSoccer/1127403038243160.jpg'>http://bbs.sjtu.edu.cn/file/WorldSoccer/1127403038243160.jpg</a>
+
+<a target=_blank href='/file/WorldSoccer/112827289428190'>http://bbs.sjtu.edu.cn/file/WorldSoccer/112827289428190</a>
+
+
+</font><font class='c32'>※ 来源:·饮水思源 bbs.sjtu.edu.cn·[FROM: 202.120.22.5]</font><font class='c37'>
+
+</font><font class='c36'>※ 修改:·hdjenemy 于 2018年11月07日09:51:21 修改本文·[FROM: 202.120.22.5]</font><font class='c37'>
+
+</font><font class='c36'>※ 修改:·hdjenemy 于 2018年11月07日09:52:25 修改本文·[FROM: 202.120.22.5]</font><font class='c37'>
+
+</font><font class='c36'>※ 修改:·hdjenemy 于 2018年11月07日09:57:30 修改本文·[FROM: 202.120.22.5]</font><font class='c37'>
+</pre></table><br>本主题共有 1 篇文章，分 1 页, 当前显示第 1 页 [<a href="/bbstdoc?board=LoveBridge">返回讨论区</a>]<br /><br />[<a href='javascript:history.go(-1)'>返回上一页</a>][<a href=bbsdoc?board=LoveBridge>本讨论区(一般模式)</a>]
+<br/>
+<a href="javascript:void(0)" onclick="jumpUrl('kaixin')"><img src="fav/kaixin001.ico" height=16 width=16 title="分享到开心" border="0"></a><a href="javascript:void(0)" onclick="jumpUrl('renren')"><img src="fav/renren.png" height=16 width=16 title="分享到人人" border="0"></a><a href="javascript:void(0)" onclick="jumpUrl('douban')"><img src="fav/douban.ico" height=16 width=16 title="分享到豆瓣" border="0"></a><a href="javascript:void(0)" onclick="jumpUrl('sina')"><img src="fav/sina.ico" height=16 width=16 title="分享到新浪" border="0"></a><a href="javascript:void(0)" onclick="jumpUrl('qzone')"><img src="fav/qq.png" height=16 width=16 title="分享到QQ校友" border="0"></a></center>
+</html>
