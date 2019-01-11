@@ -56,7 +56,7 @@ class Sjtu(Topic):
                 'userId': line[0],
                 'userUrl': line[1],
                 'userName': line[2],
-                'createTime': time_to_string(str_to_time("2018 " + line[3],
+                'createTime': time_to_string(str_to_time("2019 " + line[3],
                                                          "%Y %b %d %H:%M")),
                 'topicUrl': line[4],
                 'topicTitle': line[5],

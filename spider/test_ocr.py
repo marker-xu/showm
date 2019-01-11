@@ -34,3 +34,27 @@ print res['error_msg']
 print type(res['error_code'])
 print res['result']
 print json.dumps(res['result'])
+
+
+def test_match():
+    global client
+    image1 = file_get_contents('./data/nanjing01.jpg')
+    image1 = base64.b64encode(image1)
+    image2 = file_get_contents('./data/nanjing02.jpg')
+    image2 = base64.b64encode(image2)
+
+    result = client.match([
+        {'image': image1,
+         'image_type': 'BASE64'},
+
+        {'image': image2,
+         'image_type': 'BASE64'},
+    ])
+    print "match result: "
+    if result['error_code'] == 0:
+        print result['result']
+    else:
+        print "code-%d, msg-%s" % (result['error_code'], result['error_msg'])
+
+
+test_match()
