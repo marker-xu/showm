@@ -210,6 +210,9 @@ class Sjtu(Topic):
         tmp = p.findall(tmp_content)
         return tmp[0]
 
+    def gen_topic_url(self, dest_path):
+        return SOUTH_BASE_URL + '/' + dest_path
+
 
 if __name__ == '__main__':
 
@@ -223,6 +226,8 @@ if __name__ == '__main__':
     for topic in org_topic_list:
         try:
             tmp_topic_id = topic['topicId']
+            print "title:%s, url:%s length is large" % (topic['topicTitle'],
+                                                        sjtu_topic.gen_topic_url(topic['topicUrl']), )
             if sjtu_topic.check_topic_exists(tmp_topic_id) is True:
                 print "topic%s has exists" % (tmp_topic_id, )
                 sjtu_topic.update_stat(topic_id=tmp_topic_id,

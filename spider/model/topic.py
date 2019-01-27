@@ -173,6 +173,9 @@ class Topic(object):
     def get_last_page(self, tmp_content):
         pass
 
+    def gen_topic_url(self, dest_path):
+        pass
+
 
 if __name__ == '__main__':
     content = """

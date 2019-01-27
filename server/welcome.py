@@ -27,6 +27,7 @@ from model.data.topic import *
 from model.request.data import *
 from model.response.data import *
 from lib.util import *
+from lib.exception import BizException
 
 from tornado.options import define, options
 

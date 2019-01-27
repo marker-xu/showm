@@ -133,7 +133,7 @@ class Fudan(Topic):
         :param dest_path:
         :return:
         """
-        url = SOUTH_BASE_URL + '/' + dest_path
+        url = self.gen_topic_url(dest_path=dest_path)
         print url
         topic_body = ""
         tmp_content = curl(url, headers=SOUTH_HEADERS, encoding='utf8')
@@ -259,6 +259,9 @@ class Fudan(Topic):
             return True
         return False
 
+    def gen_topic_url(self, dest_path):
+        return SOUTH_BASE_URL + '/' + dest_path
+
 
 if __name__ == '__main__':
 
@@ -270,6 +273,8 @@ if __name__ == '__main__':
     for topic in org_topic_list:
         #break
         try:
+            print "title:%s, url:%s length is large" % (topic['topicTitle'],
+                                                        fudan_topic.gen_topic_url(topic['topicUrl']), )
             topic_struct = fudan_topic.fetch_topic(topic['topicUrl'])
             topic_list.append(topic_struct)
             fudan_topic.add_topic(topic, topic_struct)
@@ -291,6 +296,7 @@ if __name__ == '__main__':
     for topic in org_topic_list:
         #break
         try:
+            print topic['topicTitle']
             topic_struct = fudan_topic.fetch_topic(topic['topicUrl'])
             topic_list.append(topic_struct)
             #print topic_struct
