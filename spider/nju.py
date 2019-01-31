@@ -73,10 +73,8 @@ class Nju(Topic):
 
     def fetch_topic(self, dest_path):
         # bbstcon?board=WarAndPeace&file=M.1541319935.A
-        url = SOUTH_BASE_URL + '/' + dest_path
-        print url
+        url = self.gen_topic_url(dest_path)
         tmp_content = curl(url, headers=SOUTH_HEADERS)
-        #tmp_content = file_get_contents('./topic.txt')
         pattern = r'\<tr\>\<td\s*[^\s]+\s*id\=([^\>]+)\>[\s\n]+\<textarea[^\>]+\>' \
                   r'([\s\S]*?)\<\/textarea><\/table>'
         p = re.compile(pattern=pattern, flags=re.I)
@@ -240,8 +238,8 @@ if __name__ == '__main__':
     topic_list = []
     for topic in org_topic_list:
         tmp_topic_id = topic['topicId']
-        print "title:%s, url:%s length is large" % (topic['topicTitle'],
-                                                    nju_topic.gen_topic_url(topic['topicUrl']), )
+        print "title:%s, url:%s" % (topic['topicTitle'],
+                                    nju_topic.gen_topic_url(topic['topicUrl']), )
         if nju_topic.check_topic_exists(tmp_topic_id) is True:
             print "topic%s has exists" % (tmp_topic_id, )
             nju_topic.update_stat(topic_id=tmp_topic_id,

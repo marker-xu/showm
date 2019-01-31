@@ -134,7 +134,6 @@ class Fudan(Topic):
         :return:
         """
         url = self.gen_topic_url(dest_path=dest_path)
-        print url
         topic_body = ""
         tmp_content = curl(url, headers=SOUTH_HEADERS, encoding='utf8')
         root = XmlEt.fromstring(tmp_content)
@@ -271,10 +270,9 @@ if __name__ == '__main__':
     #print org_topic_list
     topic_list = []
     for topic in org_topic_list:
-        #break
         try:
-            print "title:%s, url:%s length is large" % (topic['topicTitle'],
-                                                        fudan_topic.gen_topic_url(topic['topicUrl']), )
+            print "title:%s, url:%s" % (topic['topicTitle'],
+                                        fudan_topic.gen_topic_url(topic['topicUrl']), )
             topic_struct = fudan_topic.fetch_topic(topic['topicUrl'])
             topic_list.append(topic_struct)
             fudan_topic.add_topic(topic, topic_struct)
@@ -294,9 +292,9 @@ if __name__ == '__main__':
     #print org_topic_list
     topic_list = []
     for topic in org_topic_list:
-        #break
         try:
-            print topic['topicTitle']
+            print "title:%s, url:%s" % (topic['topicTitle'],
+                                                        fudan_topic.gen_topic_url(topic['topicUrl']), )
             topic_struct = fudan_topic.fetch_topic(topic['topicUrl'])
             topic_list.append(topic_struct)
             #print topic_struct
@@ -310,4 +308,3 @@ if __name__ == '__main__':
             print my_e.message
             continue
     print len(topic_list)
-    #print topic_list
