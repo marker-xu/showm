@@ -69,7 +69,6 @@ class Sjtu(Topic):
 
     def fetch_topic(self, dest_path):
         url = SOUTH_BASE_URL + '/' + dest_path
-        print url
         tmp_content = curl(url, headers=SOUTH_HEADERS)
         pattern = r'\<tr\>\<td[^\>]*\>\s*<pre[^\>]*\>([\s\S]*?)\<\/pre><\/table>'
         p = re.compile(pattern=pattern, flags=re.I)

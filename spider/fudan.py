@@ -7,6 +7,7 @@ import logging
 from xml.etree import ElementTree as XmlEt
 from lib.util import *
 from model.topic import *
+import os
 
 
 SOUTH_HEADERS = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) '
@@ -264,6 +265,7 @@ class Fudan(Topic):
 
 if __name__ == '__main__':
 
+    print os.getcwd()
     fudan_topic = Fudan()
     tmp_board = 'Single'
     org_topic_list = fudan_topic.get_topic_list(tmp_board)
