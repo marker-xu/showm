@@ -9,6 +9,7 @@ file_list = [
     [base_path + '/fudan.py', 'fudan'],
     [base_path + '/nju.py', 'nju'],
     [base_path + '/newsmth.py', 'newsmth'],
+    [base_path + '/picture.py', 'picture'],
 ]
 for (file_name, school) in file_list:
     print "school:%s, file:%s" % (school, file_name)

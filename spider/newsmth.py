@@ -123,14 +123,13 @@ class Qinghua(Topic):
         :param topic_content:
         :return:
         """
-        pattern = r'%s[\:：][^\<]+\<br\s\/\>\s*\<br\s\/\>\s*' \
+        pattern = r'%s[\:：][^\<]+\<br\s\/\>[^\<]*\<br\s\/\>\s*' \
                   r'(.*?)' \
                   r'\s*\<br\s\/\>\s*\<font\s*class=\"f[\d]+\"\>' % ('发信站', )
         p = re.compile(pattern=pattern, flags=re.I)
         tmp = p.findall(topic_content)
         if len(tmp) > 0:
             return tmp[0]
-        print topic_content
         pattern = r'%s[\:：][^\<]+(\<font\s*class=\"f[\d]+\"\>[^\<]+\<\/font\>)*' \
                   r'\<font\s*class=\"f[\d]+\"\>\s*\<br\s\/\>\s*\<br\s\/\>\s*' \
                   r'(.*?)' \
